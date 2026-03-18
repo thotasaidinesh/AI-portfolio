@@ -83,20 +83,20 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--color-muted);
+  background: hsl(var(--muted));
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--color-primary);
+  background: hsl(var(--primary));
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: color-mix(in srgb, var(--color-primary) 80%, transparent);
+  background: hsl(var(--primary) / 0.8);
 }
 
 /* Text selection */
 ::selection {
-  background: color-mix(in srgb, var(--color-primary) 20%, transparent);
-  color: var(--color-primary);
+  background: hsl(var(--primary) / 0.2);
+  color: hsl(var(--primary));
 }
