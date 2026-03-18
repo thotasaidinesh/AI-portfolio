@@ -8,8 +8,5 @@
     "app/**/*.js": {
       "runtime": "nodejs18.x"
     }
-  },
-  "env": {
-    "NEXT_PUBLIC_SITE_URL": "https://your-portfolio.vercel.app"
   }
 }
